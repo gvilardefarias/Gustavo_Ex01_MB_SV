@@ -1,4 +1,4 @@
-module Contador(input logic clk, rst, output logic[3:0] s);
+module Contador2(input logic clk, rst, output logic[3:0] s);
     logic direction, go1, go2;
 
     always @(posedge clk or posedge rst)

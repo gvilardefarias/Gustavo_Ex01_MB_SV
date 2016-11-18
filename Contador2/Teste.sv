@@ -20,5 +20,5 @@ module Teste;
         end
     end
 
-    Contador c1(.clk(clk), .s(s), .rst(rst));
+    Contador2 c1(.clk(clk), .s(s), .rst(rst));
 endmodule
